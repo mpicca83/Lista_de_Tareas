@@ -1,4 +1,5 @@
-export {DeleteModal} from './DeleteModal'
+export {DeleteModalTask} from './DeleteModalTask'
+export {DeleteModalList} from './DeleteModalList'
 export {AddItem} from './AddItem'
 export {Item} from './ItemList/Item'
 export {ItemList} from './ItemList/ItemList'

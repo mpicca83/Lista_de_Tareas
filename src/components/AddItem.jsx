@@ -1,12 +1,12 @@
 import {View, TextInput, Button, StyleSheet} from "react-native"
 
 export const AddItem = ({valueTask, onChangeTask, valueUser, onChangeUser, addTask}) => {
-
+    
     return(
         <View style={styles.inputContainer}>
             <TextInput 
             style={styles.input}
-            placeholder="Nueva Tarea"
+            placeholder="Nueva Tarea*"
             value={valueTask}
             onChangeText={(t)=> onChangeTask(t)}
             />

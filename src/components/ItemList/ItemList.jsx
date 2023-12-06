@@ -2,6 +2,7 @@ import {View, FlatList, StyleSheet} from "react-native"
 import { Item } from "./Item"
 
 export const ItemList = ({data, onModal}) => {
+
     return (
         <View style={styles.listContainer}>
             <FlatList
@@ -16,6 +17,7 @@ export const ItemList = ({data, onModal}) => {
 const styles = StyleSheet.create({
 
     listContainer : {
-        width:"90%"
+        width:"90%",
+        flex:1,
       }
 })
